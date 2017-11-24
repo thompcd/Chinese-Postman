@@ -4,3 +4,8 @@
 VENV/
 *.egg-info/
 
+/Chinese-Postman.sln
+/Chinese-Postman.pyproj
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
