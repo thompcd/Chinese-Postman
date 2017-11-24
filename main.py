@@ -22,8 +22,8 @@ def setup_args():
 def main():
     """ Make it so. """
     edges = None
-    graph_name = setup_args()
     try:
+        graph_name = setup_args()
         print('Loading graph: {}'.format(graph_name))
         edges = getattr(data.data, graph_name)
     except (AttributeError, TypeError):
